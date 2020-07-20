@@ -1,0 +1,19 @@
+ body{
+    font-family: 'Mitr', sans-serif;
+    }
+     .headercs{
+        font-size: 30px;
+        background-color:cadetblue;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .content{
+         color:coral;
+     }
