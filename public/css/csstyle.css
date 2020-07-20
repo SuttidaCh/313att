@@ -1,6 +1,26 @@
  body{
     font-family: 'Mitr', sans-serif;
     }
+
+    .button {
+      background-color: #f4511e;
+      border: none;
+      color: white;
+      padding: 19px 123px;
+      text-align: center;
+      font-size: 16px;
+      margin: 2px 1px;*/
+      opacity: 0.7;
+      transition: 0.2s;
+      display: inline-block;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .button2 {background-color: #008CBA;} 
+    .button3 {background-color: #f44336;}  
+    .button4 {background-color: #e7e7e7; color: black;} 
+    .button5 {background-color: #555555;} 
+
      .headercs{
         font-size: 30px;
         background-color:cadetblue;
@@ -15,5 +35,7 @@
         align-items: center;
      }
      .content{
-         color:coral;
+         color:coral; 
      }
+     
+    
