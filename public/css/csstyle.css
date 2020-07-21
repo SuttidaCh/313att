@@ -3,7 +3,6 @@
     background-color: #626567;
     margin: 0;
     padding: 0;
-   
     }
 
     .main-conent{
@@ -71,15 +70,17 @@
       font-size: 16px;
       transition-duration: 0.4s;
       cursor: pointer;
-      float: left;
+      float:left;
     }
 
     .btn-group .button:hover  {
       background-color: #212F3D ;
     }
+
      .button1:hover{
       background-color: #212F3D ;
     }
+
     .button2:hover{
       background-color: #7B241C  ;
     }
