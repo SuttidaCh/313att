@@ -1,49 +1,62 @@
- body{
+ html,body{
     font-family: 'Mitr', sans-serif;
+    background-color: #626567;
+    margin: 0;
+    padding: 0;
     }
-     .headercs{
-        font-size: 30px;
-        background-color:cadetblue;
-        height: 350px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
+    .main-conent{
+       max-width: 1000px;
+       margin: auto;
+    }
+
+    .top-header{
+      background-color: #000000 ;
+       max-width: 1000px;
+       margin: auto;
+     
+    }
+     .image{
+        width: 100%;
      }
+
      .box{
-      background-color:#E0E0E0 ;
-     /* vertical-align: top;*/
-      
+      background-color: #D5DBDB  ;
+      text-align: center;
+      margin: 20px;
+      padding: 30px;
+     }
+
+     .button1{
+      color: #ffffff;  
+      background-color: #5D6D7E;
+      padding:10px ;
+      text-decoration: none;
+      display: inline-block;
      }
     
-     .center{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-     }
-     .content{
-         color:coral; 
-     }
-     
      .btn-group .button {
-      background-color: #212F3D ;
+      background-color: #000000 ;
       border: none;
       color: white;
-      padding: 15px 100px;
+      padding: 15px 58px;
       text-align: center;
       text-decoration: none;
       display: inline-block;
       font-size: 16px;
+      transition-duration: 0.4s;
       cursor: pointer;
       float: left;
     }
-    .btn-group .button:hover {
-      background-color: #566573 ;
-    }
-footer{
-   background-color:#E0E0E0 ;
-   display: block;
-   bottom: 0;
-   text-align: center;
 
+    .btn-group .button:hover {
+      background-color: #212F3D ;
+    }
+    
+   .footer-bt {
+      background-color: #212F3D;
+       padding: 20px;
+       text-align: center;
+       color: white;
    }
     
