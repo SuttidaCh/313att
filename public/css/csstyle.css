@@ -3,6 +3,7 @@
     background-color: #626567;
     margin: 0;
     padding: 0;
+    
     }
 
     .main-conent{
@@ -14,7 +15,6 @@
       background-color: #000000 ;
        max-width: 1000px;
        margin: auto;
-       
     }
    
      .image{
@@ -22,6 +22,7 @@
         float: left;
         max-width: 1000px;
         margin: auto;
+        
      }
 
      .center{
@@ -56,25 +57,13 @@
       font-size: 15px;
       padding:10px ;
       text-decoration: none;
-      transition-duration: 0.4s;
-      cursor: pointer;
-      float: right;
-     }
-    
-     .btn-group .button {
-      font-family: 'Mitr', sans-serif;
-      background-color: #000000 ;
-      border: none;
-      color: white;
-      padding: 15px 55px;
-      text-align: center;
-      text-decoration: none;
-      font-size: 16px;
       display: inline block;
       transition-duration: 0.4s;
       cursor: pointer;
-      
-   
+      float: right;
+      overflow: hidden;
+     }
+    
     }
     .btn-group .button:hover  {
       background-color: #212F3D ;
@@ -89,6 +78,36 @@
       background-color: #7B241C  ;
     }
     
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #000000;
+  }
+
+  li {
+      float: left;
+  }
+  
+  li a {
+      transition-duration: 0.4s;
+      cursor: pointer;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+      background-color:#212F3D;
+  }
+  
+  .active {
+      background-color:#00695C ;
+  }
+
    .footer-bt {
       background-color: #212F3D;
        padding: 20px;
